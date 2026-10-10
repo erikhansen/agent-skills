@@ -60,6 +60,8 @@ header p { margin: 0; color: var(--muted); line-height: 1.6; font-size: 15px; }
 .ctl.dl { border-color: var(--accent); color: var(--accent); }
 .ctl.dl:disabled { opacity: .6; cursor: progress; }
 .dl-status { font-size: 13px; color: var(--muted); min-height: 1em; }
+.credit { font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
+.credit a { color: var(--accent); }
 @media (max-width: 760px) {
   .photos { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .photos:has(> :only-child) { display: none; }
@@ -98,6 +100,7 @@ header p { margin: 0; color: var(--muted); line-height: 1.6; font-size: 15px; }
   <div class="film" id="film" aria-label="Styles"></div>
   <div class="dl-status" id="dl-status" role="status" aria-live="polite"></div>
   <div class="hint">click photo for full screen · ← → style · ↑ ↓ photo · space to compare · P to play</div>
+  <footer class="credit">Made with the <a href="https://github.com/erikhansen/agent-skills/tree/main/skills/openai-image-styles" target="_blank" rel="noopener">openai-image-styles</a> agent skill.</footer>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>

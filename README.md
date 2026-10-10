@@ -37,3 +37,7 @@ Use `.claude/skills/` inside a project instead to scope a skill to that project.
 1. Create `skills/<skill-name>/SKILL.md`.
 2. Don't commit secrets, API keys, personal photos or client details. Skills should read credentials at runtime (env var, OS keychain).
 3. Add a row to the table above.
+
+## License
+
+[MIT](LICENSE)
