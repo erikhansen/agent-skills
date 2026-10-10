@@ -1,0 +1,192 @@
+{
+  "defaults": [
+    "rembrandt",
+    "renaissance-oil",
+    "sargent-gilded-age",
+    "victorian-tintype",
+    "norman-rockwell",
+    "caricature-medium",
+    "caricature-extreme"
+  ],
+  "_clauses": {
+    "likeness": "LIKENESS: the additional images are higher-resolution close-ups of people's faces from the same photo, for likeness reference only. Keep every person from the photo: the same number of people, positions, poses and relative heights, with no one added or removed. Capture each person's recognizable traits (face shape, hairstyle and color, glasses, smile, expression) the way a skilled artist of this style would in a portrait commission, but RENDER EVERY FACE FULLY IN THE SAME ART STYLE as the rest of the image, with the same brushwork, linework, texture and palette, never looking pasted-in, sharper, smoother or more modern than the rest of the image.",
+    "likeness_no_refs": "Keep every person from the photo: the same number of people, positions, poses and relative heights, with no one added or removed. Capture each person's recognizable traits (face shape, hairstyle and color, glasses, smile, expression), rendering every face fully in the same art style as the rest of the image.",
+    "modest": "All clothing must be fully modest and age-appropriate: high necklines, chemises or partlets covering the chest, no cleavage, no low-cut bodices.",
+    "composition": "Keep the identical composition and setting. The scene is: {scene}.",
+    "costume_styles": [
+      "rembrandt",
+      "renaissance-oil",
+      "sargent-gilded-age",
+      "victorian-tintype"
+    ]
+  },
+  "styles": {
+    "rembrandt": "Repaint this photo as a Dutch Golden Age group portrait in the style of Rembrandt's The Night Watch (1642): near-black backgrounds, dramatic golden chiaroscuro spotlighting faces and fabrics, rich impasto highlights on embroidery, lace and steel. COSTUME VARIETY IS ESSENTIAL: give every person a DIFFERENT, individual 1640s outfit; no two people dressed alike, and men's and women's clothing clearly distinct. Men and boys wear Dutch militia and burgher dress, mixed across the group: black velvet doublets with wide white millstone ruffs or lace falling-band collars; crimson, orange or gold silk sashes worn across the chest; cream or buff-leather jerkins with gold embroidery and polished steel gorgets; red suits with slashed sleeves; knee breeches with boot hose and tall boots; wide-brimmed felt hats with ostrich plumes, tall black capotain hats, a few morion helmets. A few adult men may hold a ceremonial halberd, pike, banner or drum where it fits their pose. Women and girls wear dark silk or velvet gowns with high necklines, white lace collars and cuffs, embroidered stomachers, pearl necklaces, lace caps or jeweled headbands; a girl may wear a luminous gold or pale-blue silk dress like the glowing girl in The Night Watch. Vary the colors across the group: black, deep crimson, ochre, cream, gold, olive and brown.",
+    "renaissance-oil": "Repaint this photo as a High Renaissance oil painting in the manner of Raphael and Titian: luminous glazes, soft sfumato, warm golden light. Dress every person in Italian Renaissance period costume: velvet doublets and tunics, gowns with high square necklines filled by linen partlets, caps, berets and hairnets. All clothing must be fully modest and age-appropriate: high necklines, chemises or partlets covering the chest, no cleavage, no low-cut bodices.",
+    "renaissance-oil-plain": "Repaint this photo as a High Renaissance oil painting in the manner of Raphael and Caravaggio: rich warm glazes, dramatic chiaroscuro, golden light.",
+    "van-gogh": "Repaint this photo in the post-impressionist style of Vincent van Gogh: thick impasto, swirling expressive brushstrokes, vivid yellows and blues.",
+    "norman-rockwell": "Repaint this photo as a Norman Rockwell Saturday Evening Post cover illustration: warm, wholesome oil-on-canvas realism with gentle humor and rich detail.",
+    "manga-ink": "Redraw this photo as a black-and-white Japanese manga page panel: crisp G-pen ink lines, screentone shading. No speech bubbles or added text.",
+    "van-gogh-pixel-art": "Recreate this photo as detailed 16-bit pixel art painted in the style of Vincent van Gogh: crisp visible square pixels arranged into swirling Van Gogh brushstroke patterns, vivid yellows, ultramarine and cobalt blues, starry-night swirls in the sky and background.",
+    "caricature-mild": "Redraw this photo as a hand-drawn carnival / boardwalk caricature: marker and colored-pencil rendering on white sketch paper, bright cheerful colors. MILD exaggeration: heads about 1.5x normal size on slightly smaller bodies, gently enlarged eyes and smiles, subtle emphasis on each person's signature features, affectionate.",
+    "caricature-medium": "Redraw this photo as a hand-drawn carnival / boardwalk caricature: marker and colored-pencil rendering on white sketch paper, bright cheerful colors. MEDIUM exaggeration: big heads about 2x size on small cartoon bodies, playfully amplified expressions and each person's signature features, affectionate and never mean.",
+    "caricature-extreme": "Redraw this photo as a hand-drawn carnival / boardwalk caricature: marker and colored-pencil rendering on white sketch paper, bright cheerful colors. EXTREME exaggeration: wildly oversized heads about 3x size on tiny bodies, boldly stretched and squashed features pushed as far as a caricature artist would go for laughs, while staying affectionate, never mean.",
+    "claymation": "Recreate this photo as a stop-motion claymation diorama in the style of Aardman: sculpted plasticine figures with visible fingerprints, a handmade miniature set.",
+    "watercolor": "Repaint this photo as a loose, luminous watercolor painting with soft wet-in-wet washes, visible paper texture and gentle colors.",
+    "anime": "Redraw this photo in a polished Studio Ghibli-inspired anime style: clean linework, cel shading, warm lighting.",
+    "stained-glass": "Recreate this photo as a stained-glass window: bold black lead lines, jewel-toned translucent glass, light glowing through.",
+    "comic-book": "Redraw this photo as a vintage 1960s American comic book panel: bold ink outlines, Ben-Day halftone dots, saturated primary colors. No text or speech bubbles.",
+    "pixar-3d": "Re-render this photo as a high-end 3D animated film still in a Pixar-like style: soft global illumination, appealing stylized characters.",
+    "ukiyo-e": "Recreate this photo as a traditional Japanese ukiyo-e woodblock print in the style of Hokusai: flat color areas, fine carved outlines, washi paper texture, muted indigo, vermilion and ochre palette.",
+    "art-nouveau": "Redraw this photo as an Art Nouveau poster in the style of Alphonse Mucha: elegant flowing contour lines, decorative floral border, muted gold, sage and cream palette. No text.",
+    "pixel-art": "Recreate this photo as detailed 16-bit retro video game pixel art: crisp pixels, limited vibrant palette.",
+    "disney-2d": "Redraw this photo as a frame from a classic 1990s hand-drawn 2D animated feature: clean ink lines, painted backgrounds, expressive faces.",
+    "warhol-pop-art": "Recreate this photo as an Andy Warhol pop-art silkscreen print: flat bold blocks of hot pink, electric blue, yellow and orange, slightly offset black screen-print lines.",
+    "roman-mosaic": "Recreate this photo as an ancient Roman floor mosaic made of thousands of small stone and glass tesserae, with grout lines and natural stone colors.",
+    "layered-papercut": "Recreate this photo as a layered paper-cut diorama: hand-cut colored cardstock layers with soft drop shadows between layers, visible paper texture.",
+    "cross-stitch": "Recreate this photo as a finished cross-stitch embroidery on aida cloth: visible X-shaped thread stitches in a rich palette, with a wooden hoop edge.",
+    "storybook-gouache": "Repaint this photo as a mid-century children's storybook illustration in gouache: matte opaque colors, charming simplified shapes, cozy warm palette.",
+    "wes-anderson": "Re-imagine this photo as a still from a Wes Anderson film: perfectly symmetrical framing, pastel pink, mint and mustard palette, crisp whimsical set dressing.",
+    "graphite-crosshatch": "Redraw this photo as a fine graphite pencil drawing with dense, meticulous cross-hatching, like a 19th-century engraving study. Monochrome grey on warm white paper.",
+    "charcoal": "Redraw this photo as an expressive charcoal drawing on textured off-white paper: soft smudged blacks, rich tonal depth, kneaded-eraser highlights.",
+    "sepia-ink": "Redraw this photo as a pen-and-ink drawing in sepia ink on aged cream paper, with fine nib linework and stippling, like an old master's study.",
+    "colored-pencil": "Redraw this photo as a soft colored-pencil drawing with muted natural tones layered over visible pencil texture on white paper.",
+    "etching": "Redraw this photo as a Gustave Doré-style copperplate etching: crisp black engraved lines, dramatic contrast.",
+    "sargent-gilded-age": "Repaint this photo as a Gilded Age society portrait in the style of John Singer Sargent: confident, loose, luminous oil brushwork, elegant poses, rich darks and glowing highlights on fabric and skin. Dress every person in 1890s-1900s formal attire: long-sleeved, high-collared silk and lace gowns and blouses, frock coats, waistcoats, cravats and crisp wing collars; children in period sailor suits and lace-collared frocks.",
+    "victorian-tintype": "Recreate this photo as an authentic 1860s Victorian tintype studio photograph: sepia and silver-grey tones, shallow depth of field, soft vignetting, fine scratches and a dark lacquered plate edge, formal still poses. Dress every person in 1860s Victorian attire: high-necked, buttoned, long-sleeved dresses with full skirts, suits with waistcoats, bow ties and watch chains; children in period frocks, pinafores and knickerbockers."
+  },
+  "display": {
+    "rembrandt": [
+      "Rembrandt",
+      "Night Watch-style period costume"
+    ],
+    "renaissance-oil": [
+      "Renaissance Oil",
+      "Italian Renaissance, period costume"
+    ],
+    "renaissance-oil-plain": [
+      "Renaissance Oil",
+      "Raphael · Caravaggio"
+    ],
+    "van-gogh": [
+      "Van Gogh",
+      "impasto post-impressionism"
+    ],
+    "norman-rockwell": [
+      "Norman Rockwell",
+      "magazine-cover realism"
+    ],
+    "manga-ink": [
+      "Manga Ink",
+      "G-pen and screentone"
+    ],
+    "van-gogh-pixel-art": [
+      "Van Gogh Pixel Art",
+      "16-bit starry-night pixels"
+    ],
+    "caricature-mild": [
+      "Caricature: Mild",
+      "light exaggeration"
+    ],
+    "caricature-medium": [
+      "Caricature: Medium",
+      "classic boardwalk big heads"
+    ],
+    "caricature-extreme": [
+      "Caricature: Extreme",
+      "pushed as far as it goes"
+    ],
+    "claymation": [
+      "Claymation",
+      "stop-motion diorama"
+    ],
+    "watercolor": [
+      "Watercolor",
+      "wet-in-wet wash"
+    ],
+    "anime": [
+      "Anime",
+      "Ghibli-inspired cel"
+    ],
+    "stained-glass": [
+      "Stained Glass",
+      "leaded window"
+    ],
+    "comic-book": [
+      "Comic Book",
+      "1960s Ben-Day dots"
+    ],
+    "pixar-3d": [
+      "3D Animated",
+      "feature-film render"
+    ],
+    "ukiyo-e": [
+      "Ukiyo-e",
+      "Hokusai woodblock"
+    ],
+    "art-nouveau": [
+      "Art Nouveau",
+      "Mucha poster"
+    ],
+    "pixel-art": [
+      "Pixel Art",
+      "16-bit sprite scene"
+    ],
+    "disney-2d": [
+      "Classic 2D Animation",
+      "hand-drawn feature frame"
+    ],
+    "warhol-pop-art": [
+      "Warhol Pop Art",
+      "silkscreen color blocks"
+    ],
+    "roman-mosaic": [
+      "Roman Mosaic",
+      "stone and glass tesserae"
+    ],
+    "layered-papercut": [
+      "Layered Papercut",
+      "cut-cardstock diorama"
+    ],
+    "cross-stitch": [
+      "Cross-stitch",
+      "embroidery on aida cloth"
+    ],
+    "storybook-gouache": [
+      "Storybook Gouache",
+      "mid-century picture book"
+    ],
+    "wes-anderson": [
+      "Wes Anderson",
+      "symmetrical pastel film still"
+    ],
+    "graphite-crosshatch": [
+      "Graphite Cross-hatch",
+      "engraving-style study"
+    ],
+    "charcoal": [
+      "Charcoal",
+      "smudged tonal drawing"
+    ],
+    "sepia-ink": [
+      "Sepia Pen & Ink",
+      "nib and stipple"
+    ],
+    "colored-pencil": [
+      "Colored Pencil",
+      "muted layered tones"
+    ],
+    "etching": [
+      "Copperplate Etching",
+      "Doré-style engraving"
+    ],
+    "sargent-gilded-age": [
+      "Sargent Gilded Age",
+      "1890s society portrait, period dress"
+    ],
+    "victorian-tintype": [
+      "Victorian Tintype",
+      "1860s studio plate, period dress"
+    ]
+  }
+}

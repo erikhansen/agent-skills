@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+*.key
+# Working output a skill may produce if run from inside the repo
+input/
+output/
+work/
