@@ -48,8 +48,8 @@ Without close-ups the model draws generic faces. Pick boxes on the 1200px previe
 
 ## Step 3 — Prompts
 
-**Default set** (used when the user doesn't name styles): Rembrandt, Renaissance Oil, Sargent Gilded Age, Victorian Tintype, Norman Rockwell, Caricature: Medium, Caricature: Extreme. The first four are period-costume "dress everybody up" styles.
-Van Gogh, Van Gogh Pixel Art, Pixel Art, Manga Ink and Claymation are deliberately **not** in the default set. They stay in the library, but use them only when someone asks for them by name.
+**Default set** (used when the user doesn't name styles): Rembrandt, Renaissance Oil, Sargent Gilded Age, Victorian Tintype, Caricature: Medium, Caricature: Extreme. The first four are period-costume "dress everybody up" styles.
+Norman Rockwell, Van Gogh, Van Gogh Pixel Art, Pixel Art, Manga Ink and Claymation are deliberately **not** in the default set. They stay in the library, but use them only when someone asks for them by name.
 
 ```bash
 python3 SKILL_DIR/scripts/make_prompts.py --list          # * marks the default set
